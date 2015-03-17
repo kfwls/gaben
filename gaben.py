@@ -1,4 +1,5 @@
 import requests
+import time
 dat = {'validator' : 'banana', 'theirVote' : 'Gabe Newell'}
 c = 0;
 while True:
@@ -9,4 +10,3 @@ while True:
         time.sleep(60)
 
     print(str(c) + " : " + str(r.status_code))
-
