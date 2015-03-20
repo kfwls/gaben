@@ -1,6 +1,6 @@
 import requests
 import time
-dat = {'validator' : 'banana', 'theirVote' : 'Gabe Newell'}
+dat = {'validator' : 'banananana', 'theirVote' : 'Gabe+Newell'}
 c = 0;
 while True:
     c += 1
